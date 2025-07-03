@@ -19,7 +19,7 @@ package org.metatype.sxc.jaxb;
 
 import java.lang.reflect.Method;
 
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 import org.metatype.sxc.jaxb.RuntimeContext;
 import org.metatype.sxc.util.XoXMLStreamReader;

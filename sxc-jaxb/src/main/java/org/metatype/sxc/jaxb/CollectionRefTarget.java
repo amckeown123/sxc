@@ -20,7 +20,7 @@ package org.metatype.sxc.jaxb;
 import org.metatype.sxc.jaxb.IdRefTarget;
 
 import java.util.Collection;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 public class CollectionRefTarget implements IdRefTarget {
     private Collection collection;

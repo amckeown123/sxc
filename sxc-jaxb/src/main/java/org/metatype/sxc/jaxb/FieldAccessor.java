@@ -19,7 +19,7 @@ package org.metatype.sxc.jaxb;
 
 import java.lang.reflect.Field;
 
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 import org.metatype.sxc.jaxb.RuntimeContext;
 import sun.misc.Unsafe;

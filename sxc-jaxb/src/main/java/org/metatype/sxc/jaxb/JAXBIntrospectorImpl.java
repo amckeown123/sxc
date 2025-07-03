@@ -28,8 +28,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Set;
 import java.lang.reflect.Field;
-import javax.xml.bind.JAXBIntrospector;
-import javax.xml.bind.JAXBElement;
+import jakarta.xml.bind.JAXBIntrospector;
+import jakarta.xml.bind.JAXBElement;
 import javax.xml.namespace.QName;
 
 public class JAXBIntrospectorImpl extends JAXBIntrospector {

@@ -6,7 +6,7 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.Arrays;
 import java.util.Map;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 
 import org.metatype.sxc.jaxb.JAXBGenerator;
 import org.apache.maven.plugin.AbstractMojo;

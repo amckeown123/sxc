@@ -22,14 +22,13 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.Arrays;
 
-import javax.xml.bind.JAXBElement;
-import javax.xml.bind.Marshaller;
-import javax.xml.namespace.QName;
-import javax.xml.transform.stream.StreamSource;
+import jakarta.xml.bindnd.JAXBElement;
+import jakarta.xml.bindbind.Marshaller;
+
 
 import org.metatype.sxc.jaxb.JAXBContextImpl;
 import org.w3c.dom.Document;
-
+import org.metatype.sxc.util.Attribute;
 import org.metatype.sxc.util.Base64;
 import org.metatype.sxc.util.XoTestCase;
 import com.everything.AttributesType;
@@ -46,7 +45,7 @@ public class EverythingAttributeTest extends XoTestCase {
                 AttributesType.class);
         assertNotNull(a);
         
-        AttributesType st = a.getValue();
+        Attribute st = a.getValue();
         assertNotNull(st);
         assertEquals("urn:test", st.getAnyURI());
         assertTrue(Arrays.equals(Base64.decode("0123456789ABCDEF"), st.getBase64Binary()));

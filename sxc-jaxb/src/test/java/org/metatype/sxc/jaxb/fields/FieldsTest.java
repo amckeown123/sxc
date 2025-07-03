@@ -18,7 +18,7 @@
 package org.metatype.sxc.jaxb.fields;
 
 import java.io.ByteArrayOutputStream;
-import javax.xml.bind.Marshaller;
+import jakarta.xml.bind.Marshaller;
 
 import org.metatype.sxc.jaxb.JAXBContextImpl;
 import org.metatype.sxc.util.XoTestCase;

@@ -20,8 +20,8 @@ package org.metatype.sxc.jaxb.xmllist;
 import java.io.ByteArrayOutputStream;
 import java.util.List;
 import java.lang.reflect.Array;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.JAXBContext;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.JAXBContext;
 
 import org.w3c.dom.Document;
 import org.metatype.sxc.util.XoTestCase;

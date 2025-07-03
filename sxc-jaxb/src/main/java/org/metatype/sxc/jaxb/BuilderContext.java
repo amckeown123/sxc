@@ -29,8 +29,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Collections;
 import java.util.concurrent.Callable;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
 import javax.xml.namespace.QName;
 
 import org.metatype.sxc.jaxb.JAXBClass;

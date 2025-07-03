@@ -9,7 +9,6 @@
 
   <groupId>org.metatype.sxc</groupId>
   <artifactId>sxc-jaxb-maven-plugin</artifactId>
-  <version>0.9-SNAPSHOT</version>
   <name>SXC JAXB :: Maven Plugin</name>
 
   <packaging>maven-plugin</packaging>
@@ -25,23 +24,18 @@
       <artifactId>sxc-jaxb</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>com.sun.xml.bind</groupId>
-      <artifactId>jaxb-impl</artifactId>
-      <version>2.1.2</version>
-      <exclusions>
-        <exclusion>
-          <groupId>javax.xml.stream</groupId>
-          <artifactId>stax-api</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
+<dependency>
+    <groupId>com.sun.xml.bind</groupId>
+    <artifactId>jaxb-impl</artifactId>
+    <version>4.0.5</version>
+</dependency>
 
-    <dependency>
-      <groupId>com.sun.xml.bind</groupId>
-      <artifactId>jaxb-xjc</artifactId>
-      <version>2.1.2</version>
-    </dependency>
+
+<dependency>
+    <groupId>com.sun.xml.bind</groupId>
+    <artifactId>jaxb-xjc</artifactId>
+    <version>4.0.5</version>
+</dependency>
 
     <dependency>
       <groupId>org.apache.maven</groupId>
@@ -54,19 +48,9 @@
       <artifactId>maven-project</artifactId>
       <version>2.0</version>
     </dependency>
+    
+   
 
-    <dependency>
-      <groupId>org.codehaus.woodstox</groupId>
-      <artifactId>wstx-asl</artifactId>
-      <version>3.2.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
 
   <build>

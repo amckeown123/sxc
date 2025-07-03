@@ -32,15 +32,17 @@ import java.util.Set;
 import java.util.Collections;
 import java.util.concurrent.Callable;
 import java.util.logging.Logger;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.JAXBIntrospector;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.SchemaOutputResolver;
-import javax.xml.bind.Unmarshaller;
-import javax.xml.bind.annotation.XmlRegistry;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBIntrospector;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.SchemaOutputResolver;
+import jakarta.xml.bind.Unmarshaller;
+import jakarta.xml.bind.annotation.XmlRegistry;
 
 import org.metatype.sxc.jaxb.JAXBClass;
+
+
 import com.sun.xml.bind.v2.ContextFactory;
 import com.sun.xml.bind.v2.model.runtime.RuntimeTypeInfoSet;
 
@@ -187,7 +189,7 @@ public class JAXBContextImpl extends JAXBContext {
     }
 
     @SuppressWarnings("deprecation")
-    public javax.xml.bind.Validator createValidator() throws JAXBException {
+    public jakarta.xml.bind.Validator createValidator() throws JAXBException {
         throw new UnsupportedOperationException();
     }
 

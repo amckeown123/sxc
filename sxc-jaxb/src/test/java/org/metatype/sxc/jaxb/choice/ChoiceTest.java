@@ -19,7 +19,7 @@ package org.metatype.sxc.jaxb.choice;
 
 import java.util.List;
 
-import javax.xml.bind.JAXBElement;
+import jakarta.xml.bind.JAXBElement;
 
 import org.metatype.sxc.choice.Parent;
 import org.metatype.sxc.jaxb.JAXBContextImpl;

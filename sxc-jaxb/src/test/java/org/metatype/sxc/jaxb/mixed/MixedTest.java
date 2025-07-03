@@ -19,10 +19,10 @@ package org.metatype.sxc.jaxb.mixed;
 
 import java.io.ByteArrayOutputStream;
 import java.util.List;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.Unmarshaller;
-import javax.xml.bind.helpers.DefaultValidationEventHandler;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.Marshaller;
+import jakarta.xml.bind.Unmarshaller;
+import jakarta.xml.bind.helpers.DefaultValidationEventHandler;
 
 import org.metatype.sxc.util.XoTestCase;
 import org.metatype.sxc.jaxb.JAXBContextImpl;

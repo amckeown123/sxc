@@ -20,8 +20,8 @@ package org.metatype.sxc.jaxb.invoice;
 import java.io.ByteArrayOutputStream;
 import java.util.List;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.Marshaller;
 import javax.xml.datatype.XMLGregorianCalendar;
 
 import org.apache.cxf.courseware.invoice.Customer;
