@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
+ <parent>
     <groupId>org.metatype.sxc</groupId>
     <artifactId>sxc</artifactId>
-    <version>0.9-SNAPSHOT</version>
+    <version>0.8</version>
   </parent>
 
   <artifactId>sxc-jaxb</artifactId>
@@ -17,9 +17,22 @@
     </license>
   </licenses>
   
- 
+   <properties>
+    <java.version>${java.version}</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <localRepository>C:/Users/a-mck/.m2</localRepository>
+</properties>
 
   <dependencies>
+  
+  
+
+<dependency>
+<groupId>JavaFunctions</groupId>
+  <artifactId>JavaFunctions</artifactId>
+  <version>1.8.0</version>
+</dependency>
 
 <dependency>
     <groupId>com.sun.xml.bind</groupId>
@@ -62,8 +75,9 @@
 </dependency>
 
     <dependency>
-      <groupId>org.metatype.sxc</groupId>
-      <artifactId>sxc-jaxb-core</artifactId>
+<groupId>org.metatype.sxc</groupId>
+    <artifactId>sxc</artifactId>
+    <version>0.8</version>
     </dependency>
 
     <dependency>
@@ -95,6 +109,8 @@
     </dependency>
   </dependencies>
 
+<profiles>
+<profile>
   <build>
     <plugins>
       <plugin>
@@ -156,4 +172,6 @@
       </plugin>
     </plugins>
   </build>
+  </profile>
+  </profiles>
 </project>

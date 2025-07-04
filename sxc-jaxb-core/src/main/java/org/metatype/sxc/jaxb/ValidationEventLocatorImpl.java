@@ -19,7 +19,7 @@ package org.metatype.sxc.jaxb;
 
 import java.net.URL;
 import java.net.MalformedURLException;
-import jakarta.xml.bind.ValidationEventLocator;
+import javax.xml.bind.ValidationEventLocator;
 import javax.xml.stream.Location;
 
 import org.w3c.dom.Node;

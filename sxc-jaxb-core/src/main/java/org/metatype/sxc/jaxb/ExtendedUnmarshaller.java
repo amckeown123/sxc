@@ -17,8 +17,8 @@
  */
 package org.metatype.sxc.jaxb;
 
-import jakarta.xml.bind.JAXBException;
-import jakarta.xml.bind.Unmarshaller;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
 import javax.xml.stream.XMLStreamReader;
 
 /**

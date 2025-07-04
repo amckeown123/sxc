@@ -17,7 +17,7 @@
  */
 package org.metatype.sxc.jaxb;
 
-import jakarta.xml.bind.JAXBException;
+import javax.xml.bind.JAXBException;
 
 public interface IdRefTarget {
     void resolved(Object value) throws JAXBException;
