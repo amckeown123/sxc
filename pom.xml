@@ -7,7 +7,7 @@
 	<version>1.2.2</version>
 
 	<prerequisites>
-		<maven>1.0.0</maven>
+		<maven>1.0.2</maven>
 	</prerequisites>
 
 	<properties>
@@ -45,8 +45,8 @@
 						<artifactId>maven-compiler-plugin</artifactId>
 						<version>3.3</version>
 						<configuration>
-							<source>1.8</source>
-							<target>1.8</target>
+							<source>${maven.compiler.source}</source>
+							<target>${maven.compiler.source}</target>
 							<compilerArgument>-XDignore.symbol.file=true</compilerArgument>
 							<encoding>ISO-8859-1</encoding>
 						</configuration>
