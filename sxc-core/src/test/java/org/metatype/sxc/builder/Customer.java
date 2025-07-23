@@ -6,7 +6,7 @@ public class Customer {
     private String attribute;
     
     public int getId() {
-        return id;
+        return this.id;
     }
     public void setId(int id) {
         this.id = id;
